@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -51,8 +52,8 @@ header .nav ul li a:hover{
     font-size: 25px;
     color: #222222;
     float: right;
-    line-height: 60px;
-    margin-right: -60px;
+    line-height: 50px;
+    margin-right: -80px;
     cursor: pointer;
 }
 #check{
@@ -194,7 +195,6 @@ header .nav ul li a:hover{
     margin: 0 auto;
 }
 .service{
-    width: 80%;
     margin: 0 auto;
     padding-top: 45px;
 }
@@ -252,7 +252,7 @@ header .nav ul li a:hover{
     position: relative;
     top: 100px;
     left: 150px; 
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 .section4{
     text-align: center;
@@ -501,7 +501,7 @@ footer .foot .footItem button i{
     color: #FFFFFF;
     display: flex;
     padding: 10px 10px;
-    font-size: 15px;
+    font-size: 16px;
     text-align: center;
     outline: none;
     border: none;
@@ -522,12 +522,13 @@ footer .foot .footItem i:hover{
         opacity: 0.7; */
     }
     header{
-        width: 100%;
+        width: 90%;
         height: auto;
+        /* border: 1px solid black; */
     }
     header .logo{
         margin: 0;
-        margin-left: 30px;
+        margin-left: 10px;
         padding: 10px;
     }
     .checkbtn{
@@ -567,7 +568,7 @@ footer .foot .footItem i:hover{
     .half1{
         width: 80%;
         margin: auto;
-        margin-left: 70px;
+        margin-left: 50px;
         padding: 0;
     }
     .half1 h6{
@@ -589,7 +590,7 @@ footer .foot .footItem i:hover{
         font-size: 13px;
     }
     .half2 img{
-        margin-left: 110px;
+        margin-left: 70px;
         margin-top: -20px;
     }
     .section2{
@@ -601,12 +602,12 @@ footer .foot .footItem i:hover{
     }
     .section2 .img2{
         width: 90%;
-        margin-left: -70px;
+        margin-left: -90px;
         margin-bottom: 30px;
     }
     .section2 div{
         width: 80%;
-        margin-left: 70px;
+        margin-left: 50px;
     }
     .section2 .text2 h6{
         letter-spacing: 0;
@@ -638,7 +639,7 @@ footer .foot .footItem i:hover{
         font-size: 25px;
     }
     .section3 .first p{
-        width: 80%;
+        width: 95%;
         font-size: 13px;
     }
     .section3 .service .ser1 div{
@@ -646,24 +647,36 @@ footer .foot .footItem i:hover{
         clear: left;
         width: 100%;
         height: auto;
+        margin-left: -20px;
+    }
+    .section3 .service .ser1 div p{
+        font-size: 12px;
+        width: 80%;
+        margin: auto;
     }
     .section3 .service .ser2 div{
         display: block;
         clear: left;
         width: 100%;
         height: auto;
+        margin-left: -20px;
+    }
+    .section3 .service .ser2 div p{
+        width: 80%;
+        margin: auto;
+        font-size: 12px;
     }
     .section3 .service{
         margin-bottom: 50px;
     }
     .section4{
         width: 100%;
-        height: 63vh;
+        height: 100vh;
         position: relative;
     }
     .section4 div{
         clear: left;
-        margin-left: 25px;
+        margin-left: 5px;
         /* margin: 0 auto; */
         padding-bottom: 20px;
     }
@@ -682,7 +695,8 @@ footer .foot .footItem i:hover{
         font-size: 13px;
     }
     .section5 .nav{
-        margin-left: 15px;
+        /* margin-left: 15px; */
+        margin: auto;
     }
     .section5 .nav ul li{
         padding-left: 10px;
@@ -709,14 +723,17 @@ footer .foot .footItem i:hover{
     }
     .section6 .card .cardItem{
         width: 50%;
-        margin: 30px;
-        margin-left: 105px;
+        margin: 0 auto;
+    }
+    .section6 .cardItem input{
+        width: 80%;
+        padding: 10px 55px;
     }
     footer{
         width: 100%;
-        height: 60vh;
+        height: 100vh;
         position: relative;
-        top: 105em;
+        top: 120em;
     }
     footer .foot{
         display: block;
@@ -735,7 +752,7 @@ footer .foot .footItem i:hover{
         margin-bottom: 10px;
     }
     footer .foot .footItem:first-child p{
-        width: 380px;
+        width: 340px;
     }
     footer .foot .footItem input{
         width: 65%;
