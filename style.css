@@ -53,8 +53,10 @@ header .nav ul li a:hover{
     color: #222222;
     float: right;
     line-height: 50px;
-    margin-right: -80px;
     cursor: pointer;
+}
+.checkbtn i{
+    margin-left: -80px;
 }
 #check{
     display: none;
@@ -342,11 +344,11 @@ header .nav ul li a:hover{
 .section5 .image figure:hover img {
     opacity: 0.3;
     transition: all ease 0.3s;
+    display: flex;
 }
 .section5 .image div:hover .hover-effect{
-    display: flex;
-    transition: all ease 0.3s;
     opacity: 1;
+    transition: all ease 0.3s;
 }
 .section6{
     width: 100%;
@@ -531,6 +533,9 @@ footer .foot .footItem i:hover{
         margin-left: 10px;
         padding: 10px;
     }
+    header .nav{
+        margin: auto;
+    }
     .checkbtn{
         display: block !important;
     }
@@ -541,7 +546,7 @@ footer .foot .footItem i:hover{
         background-color: rgba(0, 0, 0,0.8);
         left: -200%;
         transition: all .1s;
-        z-index: 3;
+        z-index: 2;
         margin-top: 0;
     }
     header .nav ul li:first-child{
@@ -676,7 +681,7 @@ footer .foot .footItem i:hover{
     }
     .section4 div{
         clear: left;
-        margin-left: 5px;
+        margin-left: -15px;
         /* margin: 0 auto; */
         padding-bottom: 20px;
     }
@@ -699,8 +704,11 @@ footer .foot .footItem i:hover{
         margin: auto;
     }
     .section5 .nav ul li{
-        padding-left: 10px;
+        padding-left: 5px;
         font-size: 11px;
+    }
+    .section5 .image div{
+        padding-bottom: 30px;
     }
     .section6{
         width: 100%;
@@ -728,12 +736,13 @@ footer .foot .footItem i:hover{
     .section6 .cardItem input{
         width: 80%;
         padding: 10px 55px;
+        margin-left: 4px;
     }
     footer{
         width: 100%;
-        height: 100vh;
+        height: 90vh;
         position: relative;
-        top: 120em;
+        top: 115em;
     }
     footer .foot{
         display: block;
@@ -751,10 +760,13 @@ footer .foot .footItem i:hover{
         line-height: 20px;
         margin-bottom: 10px;
     }
+    footer .foot .footItem button i{
+        padding-bottom: 11px;
+    }
     footer .foot .footItem:first-child p{
         width: 340px;
     }
     footer .foot .footItem input{
-        width: 65%;
+        width: 60%;
     }
 }
